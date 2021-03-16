@@ -33,22 +33,26 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
 }
 
 .left {
     background-image: linear-gradient(#06d7c1, #50cc49);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .right {
     background-color: whitesmoke;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .half {
     flex: 0 0 335px;
     padding: 30px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .left p {
